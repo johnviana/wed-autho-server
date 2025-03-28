@@ -1,0 +1,18 @@
+--INSERT INTO auth_user (username, password, roles)
+--VALUES (
+--    'admin',
+--    '$2a$10$xn3LI/AjqicFYZFruSwve.681477XaVNaUQbr1gioaWPn4t1KsnmG',
+--    'USER'
+--);
+--
+--INSERT INTO auth_client (client_id, client_secret, authentication_methods,
+--    authorization_grant_types, redirect_uris, scopes, require_authorization_consent)
+--VALUES (
+--    'client-server',
+--    '$2a$10$2X5mvN3M3jNAMh3eeU1Gte9AFNav9O2WSDajeyHX.5wFrDJx22iRK',
+--    'client_secret_basic',
+--    'authorization_code,refresh_token,client_credentials',
+--    'http://127.0.0.1:8080/login/oauth2/code/client-server-oidc',
+--    'openid,profile',
+--    true
+--);
